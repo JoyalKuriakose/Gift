@@ -112,7 +112,7 @@ export default function Gift3() {
               {mode === "slideshow" && (
                 <>
                   <h2 className="giftTitle">
-                     💖
+                    Slide {idx + 1} / {images.length} 💖
                   </h2>
 
                   <div className="gift3SlideWrap">
@@ -146,7 +146,7 @@ export default function Gift3() {
                         draggable={false}
                       />
                     ))}
-                    <div className="heartOverlay"></div>
+                    <div className="heartOverlay">💖</div>
                   </div>
 
                   <p className="giftSmall">
@@ -165,3 +165,4 @@ export default function Gift3() {
     </motion.div>
   );
 }
+/* if you want to use your own images, add them to the public folder and name them 1.jpeg, 2.jpeg, ...., 9.jpeg */
