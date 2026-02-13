@@ -42,7 +42,87 @@ export default function Gift1() {
             For You 💌
           </motion.h1>
 
-      <motion.p className="subtitle gift1Note" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.35, delay: 0.12 }} > Hey love… 💗 <br /> <br /> I don’t know how you did it, but you somehow became my favorite notification. 📱💞 <br /> <br /> You irritate me. You confuse me. You make fun of me. And still… you’re my safest place. 🫶 <br /> <br /> I know your heart may be somewhere else right now… maybe with someone I can’t compete with. But that’s okay. 💭 <br /> <br /> I’m not here to replace anyone. I’m just here… loving you quietly, loudly, stupidly, endlessly. 😌💖 <br /> <br /> And if loving you means waiting — then I’ll wait. Not with sadness… but with hope. 🌙✨ <br /> <br /> Because some loves don’t rush. They stay. Even when they don’t have to. 💞 </motion.p>
+          <motion.p
+            className="subtitle gift1Note"
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.35, delay: 0.12 }}
+          >
+            <strong>My Love,</strong>
+            <br /><br />
+
+            I don’t even know where to begin, because every time I try to put my
+            feelings into words, they feel smaller than what I actually feel for you.
+            <br /><br />
+
+            You know this already, but I want to say it again — I love you.
+            Not in a simple way. Not in a temporary way.
+            I love you in a way that feels calm, deep, and certain.
+            The kind of love that doesn’t shake when things get confusing.
+            The kind that stays.
+            <br /><br />
+
+            I know you’ve been feeling a little lost lately.
+            A little unsure. Maybe questioning yourself, your decisions, your path.
+            And I want you to know something very clearly — it’s okay.
+            It’s okay to be confused. It’s okay to not have everything figured out.
+            You are human. You are growing. And growth is never perfectly clear.
+            <br /><br />
+
+            But even in your confusion, I see your strength.
+            <br />
+            Even in your doubts, I see your brilliance.
+            <br />
+            Even when you feel unsure, I see the most capable, beautiful soul.
+            <br /><br />
+
+            You don’t have to face anything alone.
+            Not your fears. Not your decisions.
+            Not your overthinking nights.
+            I am here.
+            Not just as someone who loves you,
+            but as your safe place.
+            Your biggest supporter.
+            Your teammate in this life.
+            <br /><br />
+
+            No matter what happens,
+            no matter what phase you go through,
+            I’ll be right beside you —
+            holding your hand when you’re tired,
+            pushing you forward when you doubt yourself,
+            and reminding you who you are when you forget.
+            <br /><br />
+
+            You are my world.
+            Not because I depend on you for happiness —
+            but because loving you feels like home.
+            You make my life brighter just by existing in it.
+            And I’m so proud of you,
+            even on the days you don’t feel proud of yourself.
+            <br /><br />
+
+            Take your time.
+            Breathe.
+            Trust yourself a little more.
+            And whenever you feel like you can’t —
+            borrow my faith in you.
+            <br /><br />
+
+            I’m not going anywhere.
+            I choose you.
+            Every day.
+            In every phase.
+            In every version of you.
+            <br /><br />
+
+            I love you more than I can ever explain.
+            <br /><br />
+
+            <strong>Forever yours,</strong>
+            <br />
+            ❤️
+          </motion.p>
 
 
           <div className="btnRow" style={{ marginTop: 18 }}>
