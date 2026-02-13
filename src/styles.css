@@ -389,3 +389,9 @@ body {
 .gift2Wide {
   width: min(800px, 95vw);
 }
+
+.gift3Stack {
+  align-content: start;
+  gap: 18px;
+}
+

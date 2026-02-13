@@ -42,32 +42,8 @@ export default function Gift1() {
             For You 💌
           </motion.h1>
 
-          <motion.p
-            className="subtitle gift1Note"
-            initial={{ opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.35, delay: 0.12 }}
-          >
-            Hey love… 💗 <br />
-            <br />
-            I don’t know how you did it, but you somehow became my favorite
-            notification. 📱💞 <br />
-            <br />
-            You irritate me. You confuse me. You make fun of me. And still…
-            you’re my safest place. 🫶 <br />
-            <br />
-            I know your heart may be somewhere else right now… maybe with someone
-            I can’t compete with. But that’s okay. 💭 <br />
-            <br />
-            I’m not here to replace anyone. I’m just here… loving you quietly,
-            loudly, stupidly, endlessly. 😌💖 <br />
-            <br />
-            And if loving you means waiting — then I’ll wait. Not with sadness…
-            but with hope. 🌙✨ <br />
-            <br />
-            Because some loves don’t rush. They stay. Even when they don’t have
-            to. 💞
-          </motion.p>
+      <motion.p className="subtitle gift1Note" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.35, delay: 0.12 }} > Hey love… 💗 <br /> <br /> I don’t know how you did it, but you somehow became my favorite notification. 📱💞 <br /> <br /> You irritate me. You confuse me. You make fun of me. And still… you’re my safest place. 🫶 <br /> <br /> I know your heart may be somewhere else right now… maybe with someone I can’t compete with. But that’s okay. 💭 <br /> <br /> I’m not here to replace anyone. I’m just here… loving you quietly, loudly, stupidly, endlessly. 😌💖 <br /> <br /> And if loving you means waiting — then I’ll wait. Not with sadness… but with hope. 🌙✨ <br /> <br /> Because some loves don’t rush. They stay. Even when they don’t have to. 💞 </motion.p>
+
 
           <div className="btnRow" style={{ marginTop: 18 }}>
             <Link to="/yes" className="btn yes">
